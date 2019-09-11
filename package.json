@@ -1,0 +1,24 @@
+{
+  "name": "chuseok-event-2019",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Eunjae Lee <karis612@gmail.com> (https://github.com/eunjae-lee)",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.15.14",
+    "gatsby-image": "^2.2.18",
+    "gatsby-plugin-sharp": "^2.2.21",
+    "gatsby-theme-mdx-blog": "^0.0.4",
+    "gatsby-theme-mdx-tailwind-blog": "^0.0.4",
+    "gatsby-transformer-sharp": "^2.2.14",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}

@@ -1,0 +1,20 @@
+module.exports = {
+  siteMetadata: {
+    title: `Chuseok Event 2019`,
+    author: `Eunjae Lee`,
+    description: `Let's eat some Korean food 🎉`
+  },
+  plugins: [
+    `gatsby-theme-mdx-blog`,
+    `gatsby-theme-mdx-tailwind-blog`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`
+      }
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`
+  ]
+};
