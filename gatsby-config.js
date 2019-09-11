@@ -6,6 +6,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-147658990-1',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-emoji-favicon',
       options: {
         emoji: '🤤',

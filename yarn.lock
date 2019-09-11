@@ -5501,6 +5501,13 @@ gatsby-plugin-emoji-favicon@^1.2.0:
   dependencies:
     emoji-favicon-webpack-plugin "^1.2.0"
 
+gatsby-plugin-google-analytics@^2.1.16:
+  version "2.1.16"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.1.16.tgz#b818395673587aa5ad69f199389d07bfbdc89e34"
+  integrity sha512-r56AlYp702uAx1dx584tui7Bk496/YkAJ3rB+vbLehocif4zyhNsFSlE4vKDBqG83c+iGywFdaa6xUTvh14hbw==
+  dependencies:
+    "@babel/runtime" "^7.6.0"
+
 gatsby-plugin-mdx@^1.0.23:
   version "1.0.41"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.0.41.tgz#f3a4b390504461fb927faa122396a68a0eee7c26"
@@ -5693,10 +5700,10 @@ gatsby-theme-mdx-blog@^0.0.4:
     prop-types "^15.7.2"
     react-helmet "^5.2.1"
 
-gatsby-theme-mdx-tailwind-blog@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-mdx-tailwind-blog/-/gatsby-theme-mdx-tailwind-blog-0.0.4.tgz#1edc4cb1573a7e9aae2537e696337b15024ab07f"
-  integrity sha512-VWWvxqy2N1oQOrIYbKljBE3v+bvxKK1sRDQMH8BTACm8w4iXyykRjWgjnSoZtTTWiTXNStg74oRRSuI5062aKg==
+gatsby-theme-mdx-tailwind-blog@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-mdx-tailwind-blog/-/gatsby-theme-mdx-tailwind-blog-0.0.5.tgz#d8e1e42d925e0b04ff80fa8e9a570df7b8be5d8a"
+  integrity sha512-NP2ctLX6poVw8K4o3APH2q2ZDm08r3++D3GCmUxo466Pf9eRfzqtzd+IWqz8hxPDzSlBINmD3DvepI4wNaJt8w==
   dependencies:
     autoprefixer "^9.6.1"
     gatsby-plugin-postcss "^2.1.5"
