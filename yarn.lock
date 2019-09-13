@@ -5700,10 +5700,10 @@ gatsby-theme-mdx-blog@^0.0.4:
     prop-types "^15.7.2"
     react-helmet "^5.2.1"
 
-gatsby-theme-mdx-tailwind-blog@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-mdx-tailwind-blog/-/gatsby-theme-mdx-tailwind-blog-0.0.5.tgz#d8e1e42d925e0b04ff80fa8e9a570df7b8be5d8a"
-  integrity sha512-NP2ctLX6poVw8K4o3APH2q2ZDm08r3++D3GCmUxo466Pf9eRfzqtzd+IWqz8hxPDzSlBINmD3DvepI4wNaJt8w==
+gatsby-theme-mdx-tailwind-blog@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/gatsby-theme-mdx-tailwind-blog/-/gatsby-theme-mdx-tailwind-blog-0.0.6.tgz#28ca0dce25e0c88b2a6293786c9a34d23ef3dd1a"
+  integrity sha512-DtJtx1TeM41iuXxE0pZCaaOM4LemouGVJ1iQsJcji1O529Oyf1AioYeO/4z7Ij7WMfeAv+oe6T5oVKHV7+3Jcw==
   dependencies:
     autoprefixer "^9.6.1"
     gatsby-plugin-postcss "^2.1.5"

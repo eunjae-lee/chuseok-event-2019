@@ -18,7 +18,7 @@ module.exports = {
       },
     },
     `gatsby-theme-mdx-blog`,
-    `gatsby-theme-mdx-tailwind-blog`,
+    { resolve: `gatsby-theme-mdx-tailwind-blog`, options: { purgecss: null } },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
