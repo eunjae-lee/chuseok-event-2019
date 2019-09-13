@@ -16,8 +16,18 @@ export default ({
         h4: ({ children, ...props }) => <h4 {...props}>{children}</h4>,
         h5: ({ children, ...props }) => <h5 {...props}>{children}</h5>,
         h6: ({ children, ...props }) => <h6 {...props}>{children}</h6>,
+        ul: ({ children, ...props }) => (
+          <ul {...props} className="my-4 list-disc">
+            {children}
+          </ul>
+        ),
+        li: ({ children, ...props }) => (
+          <li {...props} className="text-gray-800 ml-5">
+            {children}
+          </li>
+        ),
         p: ({ children, ...props }) => (
-          <p {...props} className="text-gray-800">
+          <p {...props} className="text-gray-800 mb-2">
             {children}
           </p>
         ),
