@@ -31,6 +31,19 @@ export default ({
             {children}
           </p>
         ),
+        a: ({ children, ...props }) => (
+          <a {...props} className="text-blue-600">
+            {children}
+          </a>
+        ),
+        blockquote: ({ children, ...props }) => (
+          <blockquote
+            {...props}
+            className="border-solid border-l-4 border-orange-600 my-4 pl-4 py-2"
+          >
+            {children}
+          </blockquote>
+        ),
       }}
     >
       <article className="p-8">
